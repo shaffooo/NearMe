@@ -1,0 +1,22 @@
+{
+  // Required
+  "manifest_version": 2,
+  
+  "name": "NearMe",
+  "author": "Shafiq Ur Rahman",
+  "version": "1.0",
+
+  // Recommended
+  "description": "Talk to people on same network using a key",
+  
+
+  "browser_action": {
+    "default_icon": "images/ext_logo1.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+
+}

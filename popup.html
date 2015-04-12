@@ -1,0 +1,57 @@
+<!doctype html>
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "popup.html".
+ -->
+<html>
+  <head>
+    <title>NearMe Extension</title>
+    <link rel="stylesheet" type="text/css" href="popupstyle.css">
+    <!--<script src="popup.js"></script>-->
+  </head>
+
+  <!-- The html design code for popup home layout-->
+  <body>
+    
+    <!-- Tabs list -->
+    <div id="tab-container"> 
+      <ul>
+         <li><a href="">CAPS Developers</a></li>
+         <li><a href="">CS592</a></li>
+         <li><a href="">Computer Science</a></li>
+         <li><a href="">ACM</a></li>
+         <li><a href="">Hiking Society</a></li>
+      </ul>
+    </div>
+
+    <!-- popup details container-->
+    <div id="popup-container">  
+      <!-- Title bar -->
+      <div class="header" >   
+        <img id="img-ext-logo" class="extlogo" src="images/ext_logo1.png" alt="Logo">
+
+        <div class="headertext">  
+          <span id="p-active-conv" >CS592</span>
+          <p id="p-status">Last active </p>
+        </div>
+
+        <div class="popupactions">
+          <img id="img-close-popup" class="icon" src="images/close.png" alt="close">
+          <img id="img-hide-popup" class="icon" src="images/up.png" alt="hide">
+          <img id="img-show-popup" class="icon" src="images/down.png" alt="show">
+        </div>
+      </div>
+
+      <!-- horizontal divider-->
+      <hr>
+
+      <!-- Popup contents -->
+      <div class="contents">
+
+      </div>
+    </div>
+
+  </body>
+</html>
+
